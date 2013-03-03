@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="diazotheme.framework.yaml4">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <plone:static directory="static" 
+                name="yaml4-framework" type="theme" />
+
+</configure>
